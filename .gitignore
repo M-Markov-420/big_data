@@ -1,0 +1,11 @@
+# Ignore all contents of Input and Output directories
+Input/*
+Output/*
+
+# Exception: Keep the empty directories in version control
+!Input/.gitkeep
+!Output/.gitkeep
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
