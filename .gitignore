@@ -1,6 +1,8 @@
 # Ignore all contents of Input and Output directories
 Input/*
 Output/*
+Documentation/10112026.md
+Documentation/README.md
 
 # Exception: Keep the empty directories in version control
 !Input/.gitkeep
